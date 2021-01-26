@@ -2,14 +2,14 @@ import styled from 'styled-components'
 
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
-  background-color: #00000070;
+  background-color: #6E6E6E;
   padding: 20px;
-  display: flex;
-  align-items: center;
-  border-radius: 4px; 
+  display: inline-block;
+  align-items: left;
+  border-top: 0px solid; 
   img {
     width: 58px;
-    margin-right: 23px;
+    margin-right: -90px;
   }
   a {
     color: white;
@@ -37,7 +37,7 @@ export default function Footer(props) {
         {' '}
         a
         {' '}
-        <a href="https://github.com/CahMoura/portuguese-quiz">
+        <a href="https://www.alura.com.br/">
           <span>Imersão React da Alura</span>
         </a>
       </p>
