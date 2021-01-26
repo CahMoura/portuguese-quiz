@@ -30,7 +30,7 @@ export default function Footer(props) {
     // eslint-disable-next-line react/jsx-props-no-spreading
     <FooterWrapper {...props}>
       <a href="https://github.com/CahMoura/portuguese-quiz">
-        <img src="../assets/avataaars.svg" alt="Logo Meu" />
+        <img src="https://i.pinimg.com/564x/e0/b0/33/e0b03391acca8ef7d2adff4cad05ff67.jpg" alt="Logo Meu" />
       </a>
       <p>
         Orgulhosamente criado durante
