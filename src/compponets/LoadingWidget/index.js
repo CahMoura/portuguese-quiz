@@ -8,7 +8,7 @@ function LoadingWidget() {
       <Widget.Header>
         {/* <BackLinkArrow href="/" */}
         <h3>
-          Dance a Samba ...
+          Let is dance a Samba ...
         </h3>
       </Widget.Header>
 
