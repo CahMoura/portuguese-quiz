@@ -1,42 +1,216 @@
 {
-    "bg": "https://i.pinimg.com/564x/69/35/75/69357551ab8302abb883cff0b04e6eb0.jpg",
+    "bg": "https://i.pinimg.com/originals/28/4a/ff/284afff1cd1740a7deaa1fa4ed599f7e.jpg",
     "title": "Portuguese Quiz",
-    "description": "Test your knowledge in Brazilian Portuguese and learning more about this idiom",
+    "description": "Test your knowledge in Brazilian Portuguese and learning more about the idiom and the country.",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/YQMZwLmX6WXrn8EJZj/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
+        "image": "https://media1.giphy.com/media/JjtGUoCemhZ1S/giphy.gif?cid=ecf05e47ff5msq395fpn6u8drzmnnte70o5562m9i55jrpz3&rid=giphy.gif",
+        "title": "Do you know the capital of Brazil?",
+        "description": "Easy-peasy",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Rio de Janeiro",
+          "Amazônia",
+          "Brasília",
+          "São Paulo"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/S738Ng2ZwrQqw09yYT/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://media0.giphy.com/media/xUr6kR0GlTUFgvSVrm/giphy.gif?cid=ecf05e47pm44qx3ovjen5x9yqo4jaa7n7wm1i43mjivjus8r&rid=giphy.gif",
+        "title": "Do you know what is this typical Brazilian food?",
+        "description": "Yummy😋",
+        "answer": 1,
+        "alternatives": [
+          "Brigadeiro",
+          "Coxinha",
+          "Pastel",
+          "Pão de Queijo"
+        ]
+      },
+      {
+        "image": "https://media3.giphy.com/media/3o6vXSrFanGtl9IR9K/giphy.gif?cid=ecf05e47s8nln7uytb2z21scusmfdqrsnlnrd6s0s5444bvt&rid=giphy.gif",
+        "title": "How do you say alligator in Portuguese?",
+        "description": "Take with The Cuca🐊",
+        "answer": 3,
+        "alternatives": [
+          "Onça",
+          "Anta",
+          "Avestruz",
+          "Jacará"
+        ]
+      },
+      {
+        "image": "https://media1.giphy.com/media/jKaFXbKyZFja0/giphy.gif?cid=ecf05e473lsrvr4bl6072xevs16bdctkpnu8qx01otm0to6p&rid=giphy.gif",
+        "title": "What's the correct word for Lunch?",
+        "description": "Lunch Time",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+          "Almoço",
+          "Lunche",
+          "Janta",
+          "Café da Manhã"
+          
+        ]
+      },
+      {
+        "image": "https://media2.giphy.com/media/N6QBgJfTRlNWE/giphy.gif?cid=ecf05e47q1gljtawr6wwh42umtj0uosrg49ffp38a3kccuy7&rid=giphy.gif",
+        "title": "Do you know the name of this movie (The Hunger Games) in Portuguese?",
+        "description": "Are you, Are you come to the tree...",
+        "answer": 2,
+        "alternatives": [
+          "Jogos Famintos",
+          "Jogos Letais",
+          "Jogos Vorazes",
+          "Jogos de Ódio"
+        ]
+      },
+      {
+        "image": "https://media4.giphy.com/media/26FPBs9JehgQOZ2QE/giphy.gif?cid=ecf05e47lpufme93qmhfzpu1ocq00bs55g2bccex6pvk3kyd&rid=giphy.gif",
+        "title": "Choose the corret translation for Pretend.",
+        "description": "Don't pretend",
+        "answer": 1,
+        "alternatives": [
+          "Pretender",
+          "Fingir",
+          "Postar",
+          "Negociar"
+        ]
+      },
+      {
+        "image": "https://media0.giphy.com/media/pls79N6FKM52M/giphy.gif?cid=ecf05e47cm23cuix6y6ojsoiyo8jbn0dxgknk1oct4t6dyon&rid=giphy.gif",
+        "title": "College in Portuguese is...",
+        "description": "Oh no no no",
+        "answer": 2,
+        "alternatives": [
+          "Colégio",
+          "Colega",
+          "Faculdade",
+          "Fazenda"
+        ]
+      },
+      {
+        "image": "https://media2.giphy.com/media/ChTbtWsFB75oA/giphy.gif?cid=ecf05e47q3h7fvrkoxh0ed97zru6gmlwe646of00owbv7awk&rid=giphy.gif",
+        "title": "How do you say Avengers in Portuguese?",
+        "description": "Don't you cry",
+        "answer": 3,
+        "alternatives": [
+          "Avarentos",
+          "Amigos",
+          "Unidos",
+          "Vingadores"
+        ]
+      },
+      {
+        "image": "https://media3.giphy.com/media/jq9Zk7LyonSmc/giphy.gif?cid=ecf05e47xooxhkzy5oyy7q1bvkuqx1x46zivipxwl3nus5dh&rid=giphy.gif",
+        "title": "What this word means (Pais)?",
+        "description": "Self-explanatory",
+        "answer": 2,
+        "alternatives": [
+          "Aunt",
+          "Relative",
+          "Parents",
+          "Family"
+          
+        ]
+      },
+      {
+        "image": "https://media3.giphy.com/media/olAik8MhYOB9K/giphy.gif?cid=ecf05e47cg5pm7lujqf7trc6nptzig89bp4yht2qmkcts2y9&rid=giphy.gif",
+        "title": "What's the translation: Never gonna say goodbye.",
+        "description": "Ooh, give you up",
+        "answer": 3,
+        "alternatives": [
+          "Nunca vou correr por aí",
+          "Nunca vou fazer você chorar",
+          "Nunca vou contar uma mentira",
+          "Nunca vou dizer adeus"
+        ]
+      },
+      {
+        "image": "https://media4.giphy.com/media/3oEjI9byGIPCDolVBK/giphy.gif",
+        "title": "How do you say this number (100) in Portuguese?",
+        "descript": "You know!",
+        "answer": 1,
+        "alternatives": [
+          "Zero",
+          "Cem",
+          "Um",
+          "Mil"
+        ]
+      },
+      {
+        "image": "https://media2.giphy.com/media/11ZFJrceaaI4Le/giphy.gif?cid=ecf05e47jhh0zdn4i565wk2rz45s5dv6zzpw88thzmnh3r93&rid=giphy.gif",
+        "title": "Which is a Brasilian Program?",
+        "description": "Pushover",
+        "answer": 0,
+        "alternatives": [
+          "3%",
+          "Usurpadora",
+          "Esmeralda",
+          "Marimar"
+          
+        ]
+      },
+      {
+        "image": "https://media4.giphy.com/media/Y35aXBPwzvxklDJNFp/giphy.gif?cid=ecf05e47ukryu3x21jg591ayryljgnpgp69bskafjv2rou3z&rid=giphy.gif",
+        "title": "Which is a Brasilian celebrity?",
+        "description": "This is a walk in the park",
+        "answer": 3,
+        "alternatives": [
+          "Camila Mendes",
+          "Gisele Bündchen",
+          "Neymar",
+          "All the alternatives"
+        ]
+      },
+      {
+        "image": "https://media2.giphy.com/media/l378mDtKVeGqxHibm/giphy.gif?cid=ecf05e471yep5gqepfveaemact5nda5g77u6n7trmn9clsh7&rid=giphy.gif",
+        "title": "What the name of this television program (Wheel of Fortune) in Portuguese?",
+        "description": "Who wins?",
+        "answer": 1,
+        "alternatives": [
+          "Roda da Fortuna",
+          "Roda a Roda",
+          "Baú da Felicidade",
+          "Gira a Roleta"
+        ]
+      },
+      {
+        "image": "https://media2.giphy.com/media/I7z1swVnm9g9q/giphy.gif?cid=ecf05e47zaklbbqths9f9ymg4gkpvpefmnq9qc9ujt34md01&rid=giphy.gif",
+        "title": "What's the name of this typical dessert?",
+        "description": "A piece of cake",
+        "answer": 0,
+        "alternatives": [
+           "Brigadeiro",
+           "Bolacha",
+           "Bolo",
+           "Sorvete"
+        ]
+      },
+      {
+        "image": "https://media0.giphy.com/media/3oFzm9LanEHllG3icE/giphy.gif?cid=ecf05e476qfctrdnth8ogilacmqlf0asakamh21b875wpvj5&rid=giphy.gif",
+        "title": "What this word means (Boa Noite)",
+        "description": "The End?",
+        "answer": 2,
+        "alternatives": [
+          "Good Morning",
+          "Good Afternoon",
+          "Good Night",
+          "GoodBye"
         ]
       }
     ],
     "external": [
-      ""
+      "https://pokemon-quiz.neorogerio.vercel.app/",
+      "https://quiz-web.hiaguedes.vercel.app/"
     ],
     "theme": {
       "colors": {
-        "primary": "#0d47a1",
-        "secondary": "#29b6f6",
-        "mainBg": "#171B35",
-        "contrastText": "#FFFFFF",
-        "wrong": "#FF5722",
-        "success": "#4CAF50"
+        "primary": "#01579b",
+        "secondary": "#039be5",
+        "mainBg": "#1a237e",
+        "contrastText": "#fafafa",
+        "wrong": "#dd2c00",
+        "success": "#1b5e20"
       },
       "borderRadius": "4px"
     }

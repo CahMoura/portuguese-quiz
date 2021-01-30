@@ -1,15 +1,21 @@
-import styled from 'styled-components'
-
+/* eslint-disable react/jsx-props-no-spreading */
+import styled from 'styled-components';
+import React from 'react';
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
-  background-color: #6E6E6E;
-  padding: 20px;
-  display: inline-block;
-  align-items: left;
-  border-top: 0px solid; 
+  padding: 0px;
+  display: flex;
+  margin: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 100%;
+  align-items: auto;
+  border-top: 0px solid;
+ 
   img {
-    width: 58px;
-    margin-right: -90px;
+    width: 38px;
+    margin: left;
+    margin-left: -40px;
   }
   a {
     color: white;
@@ -30,13 +36,10 @@ export default function Footer(props) {
     // eslint-disable-next-line react/jsx-props-no-spreading
     <FooterWrapper {...props}>
       <a href="https://github.com/CahMoura/portuguese-quiz">
-        <img src="https://i.pinimg.com/564x/e0/b0/33/e0b03391acca8ef7d2adff4cad05ff67.jpg" alt="Logo Meu" />
+        <img src="https://i.pinimg.com/564x/e0/b0/33/e0b03391acca8ef7d2adff4cad05ff67.jpg" alt="Logo" />
       </a>
       <p>
-        Orgulhosamente criado durante
-        {' '}
-        a
-        {' '}
+        <b>Orgulhosamente criado durante a </b>
         <a href="https://www.alura.com.br/">
           <span>Imersão React da Alura</span>
         </a>
