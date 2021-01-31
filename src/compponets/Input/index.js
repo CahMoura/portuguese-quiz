@@ -10,8 +10,8 @@ const InputBase = styled.input`
     background-color: ${({ theme }) => theme.colors.mainBg};
     border-radius: 4;
     outline: 0;
-    margin-bottom: 15px;
-    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    margin-bottom: 20px;
+    ::placeholder {
       color: ${({ theme }) => theme.colors.contrastText}DD;
       opacity: 1;
     }

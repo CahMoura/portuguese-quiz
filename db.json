@@ -36,7 +36,7 @@
           "Onça",
           "Anta",
           "Avestruz",
-          "Jacará"
+          "Jacaré"
         ]
       },
       {
@@ -201,13 +201,15 @@
     ],
     "external": [
       "https://pokemon-quiz.neorogerio.vercel.app/",
-      "https://quiz-web.hiaguedes.vercel.app/"
+      "https://aluraquiz-coffee.leonardot07.vercel.app/",
+      "https://flash-quiz-next.davidlpc1.vercel.app/",
+      "https://alura-quiz-avengers.fernanda-kipper.vercel.app/"
     ],
     "theme": {
       "colors": {
         "primary": "#01579b",
-        "secondary": "#039be5",
-        "mainBg": "#1a237e",
+        "secondary": "#00838f",
+        "mainBg": "#006064",
         "contrastText": "#fafafa",
         "wrong": "#dd2c00",
         "success": "#1b5e20"

@@ -7,15 +7,15 @@ const FooterWrapper = styled.footer`
   display: flex;
   margin: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 0px;
   width: 100%;
   align-items: auto;
   border-top: 0px solid;
  
   img {
-    width: 38px;
+    width: 60px;
     margin: left;
-    margin-left: -40px;
+    margin-left: -50px;
   }
   a {
     color: white;
@@ -38,12 +38,6 @@ export default function Footer(props) {
       <a href="https://github.com/CahMoura/portuguese-quiz">
         <img src="https://i.pinimg.com/564x/e0/b0/33/e0b03391acca8ef7d2adff4cad05ff67.jpg" alt="Logo" />
       </a>
-      <p>
-        <b>Orgulhosamente criado durante a </b>
-        <a href="https://www.alura.com.br/">
-          <span>Imersão React da Alura</span>
-        </a>
-      </p>
     </FooterWrapper>
   );
 }

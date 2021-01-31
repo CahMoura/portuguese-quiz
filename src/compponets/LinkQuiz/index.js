@@ -1,20 +1,14 @@
-import styled from 'styled-components';
+/* eslint-disable react/jsx-props-no-spreading */
+import React from 'react';
+import NextLink from 'next/link';
 
-const QuizesGalera = styled.a.attrs('href', 'target')`
-    display: block;
-    color: ${({ theme }) => theme.colors.torrao};
-    background-color: ${({ theme }) => theme.colors.darkYellow};
-    font-size: 15px;
-    font-weight: 600;
-    padding: 7px 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: .25s;
-    &:hover,
-    &:focus {
-        background-color: ${({ theme }) => theme.colors.darkYellowHover};
-    }
-`;
-
-export default QuizesGalera;
+// eslint-disable-next-line react/prop-types
+export default function Link({ children, href, ...props }) {
+  return (
+    <NextLink href={href} passHref>
+      <a {...props}>
+        {children}
+      </a>
+    </NextLink>
+  );
+}

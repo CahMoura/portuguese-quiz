@@ -1,6 +1,7 @@
 /* eslint-disable func-names */
 import React from 'react';
 import { useRouter } from 'next/router';
+import { motion } from 'framer-motion';
 import QuizContainer from '../src/compponets/QuizContainer';
 // eslint-disable-next-line import/no-unresolved
 import LinkQuiz from '../src/compponets/LinkQuiz';
@@ -25,45 +26,72 @@ export default function Home() {
           <Widget.Header>
             <h1>{db.title}</h1>
           </Widget.Header>
-          <Widget.Content>
-            <p>{db.description}</p>
-            <form onSubmit={function (infosDoEvento) {
-              infosDoEvento.preventDefault();
-              router.push(`/quiz?name${name}`);
+          <Widget
+            as={motion.section}
+            transition={{ delay: 0, duration: 0.5 }}
+            variants={{
+              show: { opacity: 1, y: '0' },
+              hidden: { opacity: 0, y: '100%' },
             }}
-            >
-              <Input
-                name="UserName"
-                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
-                placeholder="Say your name and play the game!"
-                value={name}
-              />
-              <Button type="submit" disabled={name.length === 0}>
-                {`Play ${name}`}
-              </Button>
-            </form>
-          </Widget.Content>
+            initial="hidden"
+            animate="show"
+          >
+            <Widget.Content>
+              <p>{db.description}</p>
+              <form onSubmit={function (infosDoEvento) {
+                infosDoEvento.preventDefault();
+                router.push(`/quiz?name${name}`);
+              }}
+              >
+                <Input
+                  name="UserName"
+                  onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
+                  placeholder="Say your name"
+                  value={name}
+                  maxLeght={15}
+                />
+                <Button type="submit" disabled={name.length === 0}>
+                  {`Play ${name}`}
+                </Button>
+              </form>
+            </Widget.Content>
+          </Widget>
         </Widget>
-
         <Widget>
           <Widget.Content>
-            <h1>Others Quiz</h1>
+            <h1>Others Quiz in Portuguese</h1>
+            <ul>
+              {db.external.map((linkExterno) => {
+                const [projectName, githubUser] = linkExterno
+                  .replace(/\//g, '')
+                  .replace('https:', '')
+                  .replace('.vercel.app', '')
+                  .split('.');
 
-            <LinkQuiz
-              href="https://quiz-pokemon.vercel.app/"
-              target="_blank"
-            >
-              Quiz Pokemon
-            </LinkQuiz>
-            <LinkQuiz
-              href="https://aluraquiz-coffee.leonardot07.vercel.app/"
-              target="_blank"
-            >
-              Quiz Coffe
-            </LinkQuiz>
+                return (
+                  <li key={linkExterno}>
+                    <Widget.Topic
+                      as={LinkQuiz}
+                      href={`/quiz/${projectName}___${githubUser}`}
+                    >
+                      {`${githubUser}/${projectName}`}
+                    </Widget.Topic>
+                  </li>
+                );
+              })}
+            </ul>
           </Widget.Content>
         </Widget>
-        <Footer />
+        <Footer
+          as={motion.footer}
+          transition={{ delay: 0.5, duration: 0.5 }}
+          variants={{
+            show: { opacity: 1 },
+            hidden: { opacity: 0 },
+          }}
+          initial="hidden"
+          animate="show"
+        />
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/CahMoura?tab=repositories" />
     </QuizBackground>
