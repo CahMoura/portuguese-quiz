@@ -139,7 +139,7 @@
       },
       {
         "image": "https://media2.giphy.com/media/11ZFJrceaaI4Le/giphy.gif?cid=ecf05e47jhh0zdn4i565wk2rz45s5dv6zzpw88thzmnh3r93&rid=giphy.gif",
-        "title": "Which is a Brasilian Program?",
+        "title": "Which of these programs is a Brazilian production?",
         "description": "Pushover",
         "answer": 0,
         "alternatives": [
@@ -156,7 +156,7 @@
         "description": "This is a walk in the park",
         "answer": 3,
         "alternatives": [
-          "Camila Mendes",
+          "Alice Braga",
           "Gisele Bündchen",
           "Neymar",
           "All the alternatives"

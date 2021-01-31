@@ -8,7 +8,7 @@ export default function dbHandler(request, response) {
 
   response.setHeader('Acess-Control-Allow-Credentials', true);
   response.setHeader('Acess-Control-Allow-Origin', '*');
-  response.setHeader('Acess-Control-Allow-Methods', 'GET,OPTIONS,PATH,DELETE,POST,PUT');
+  response.setHeader('Acess-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT');
 
   response.json(db);
 }
